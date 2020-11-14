@@ -69,6 +69,6 @@ function gameRound(){
     } // End of command switch
 
     // Use Up A Round
-    $rounds_left = $rounds_left - 1;
+    $rounds_left = $rounds_left - 1; 
     echo "\nYou now have $rounds_left rounds left.\n\n";
 } // End of gameRound() function
